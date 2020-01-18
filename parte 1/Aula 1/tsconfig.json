@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        // qual modelo eles estao utilizando 
+        "target": "es6",
+        // será gerado a pasta JS, dentro de app
+        "outDir": "app/js",
+        // enquanto houver um erro no arquivo TS, não será gerado o arquivo js
+        "noEmitOnError": true
+    },
+    // uso da pasta TS, iremos utilizar essa pasta para criar a pasta JS
+    "include": [
+        "app/ts/**/*"
+    ]
+}
